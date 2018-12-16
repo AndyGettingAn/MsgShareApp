@@ -30,5 +30,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true" android:id="@+id/btnSendInfo" android:layout_marginBottom="208dp"/>
+    <Button
+            android:text="Share to other Apps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:id="@+id/btnShareToOtherApps"
+            android:layout_marginBottom="152dp"/>
 
 </RelativeLayout>
