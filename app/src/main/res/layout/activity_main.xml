@@ -5,7 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:padding="10dp">
 
 
     <Button
@@ -16,5 +17,18 @@
             android:layout_alignParentTop="true"
             android:id="@+id/btnShowToast"
             android:layout_marginTop="45dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/hint_msg"
+            android:ems="10"
+            android:layout_centerHorizontal="true" android:id="@+id/etUserMessage"
+            android:layout_marginTop="66dp" android:layout_below="@+id/btnShowToast"/>
+    <Button
+            android:text="@string/button_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:id="@+id/btnSendInfo" android:layout_marginBottom="208dp"/>
 
 </RelativeLayout>

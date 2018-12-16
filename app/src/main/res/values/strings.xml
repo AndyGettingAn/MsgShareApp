@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MsgShareApp</string>
     <string name="button_one">Show Toast!</string>
+    <string name="hint_msg">Enter your Name</string>
+    <string name="button_two">Send Info to next activity</string>
+
 </resources>
