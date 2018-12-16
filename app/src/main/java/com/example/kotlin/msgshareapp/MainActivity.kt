@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(){
         var nums : IntRange = 1..5
 
         for (a in nums)
-            println(1)
+            println(2)
 
 
     }
